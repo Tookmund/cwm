@@ -19,7 +19,7 @@
  */
 
 #include <sys/types.h>
-#include <sys/queue.h>
+#include "queue.h"
 #include <sys/stat.h>
 
 #include <err.h>
@@ -31,6 +31,7 @@
 #include <unistd.h>
 
 #include "calmwm.h"
+#include "local.h"
 
 static const char	*conf_bind_getmask(const char *, unsigned int *);
 static void		 conf_cmd_remove(struct conf *, const char *);
