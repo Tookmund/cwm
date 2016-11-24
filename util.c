@@ -30,6 +30,7 @@
 #include <unistd.h>
 
 #include "calmwm.h"
+#include "local.h"
 
 void
 u_spawn(char *argstr)

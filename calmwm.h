@@ -31,6 +31,8 @@
 #include <X11/extensions/Xrandr.h>
 #include <X11/keysym.h>
 
+#include "local.h"
+
 #undef MIN
 #undef MAX
 #define MIN(x, y) ((x) < (y) ? (x) : (y))

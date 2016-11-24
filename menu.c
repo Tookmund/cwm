@@ -33,6 +33,7 @@
 #include <unistd.h>
 
 #include "calmwm.h"
+#include "local.h"
 
 #define PROMPT_SCHAR	"\xc2\xbb"
 #define PROMPT_ECHAR	"\xc2\xab"

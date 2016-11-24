@@ -35,6 +35,7 @@
 #include <unistd.h>
 
 #include "calmwm.h"
+#include "local.h"
 
 Display			*X_Dpy;
 Time			 Last_Event_Time = CurrentTime;

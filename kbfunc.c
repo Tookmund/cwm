@@ -33,6 +33,7 @@
 #include <unistd.h>
 
 #include "calmwm.h"
+#include "local.h"
 
 #define HASH_MARKER	"|1|"
 

@@ -30,6 +30,7 @@
 #include <unistd.h>
 
 #include "calmwm.h"
+#include "local.h"
 
 void
 xu_ptr_getpos(Window win, int *x, int *y)

@@ -32,6 +32,7 @@
 #include <unistd.h>
 
 #include "calmwm.h"
+#include "local.h"
 
 #define PATH_ANY 	0x0001
 #define PATH_EXEC 	0x0002

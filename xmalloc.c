@@ -32,6 +32,7 @@
 #include <unistd.h>
 
 #include "calmwm.h"
+#include "local.h"
 
 void *
 xmalloc(size_t siz)
